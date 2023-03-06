@@ -1,0 +1,1 @@
+c:\TEMP_Work\osu-decoder-master\osu!decoder\obj\Debug\osu!decoder.csprojResolveAssemblyReference.cache

@@ -1,0 +1,366 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "CommandLineParser/1.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
+      "Costura.Fody/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/dotnet/_._": {}
+        },
+        "runtime": {
+          "lib/dotnet/Costura.dll": {}
+        },
+        "build": {
+          "build/dotnet/Costura.Fody.targets": {}
+        }
+      },
+      "dnlib/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/dnlib.dll": {}
+        }
+      },
+      "Fody/2.2.0": {
+        "type": "package",
+        "build": {
+          "build/net452/Fody.targets": {}
+        }
+      },
+      "EazDecodeLib/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "CommandLineParser/1.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
+      "Costura.Fody/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/dotnet/_._": {}
+        },
+        "runtime": {
+          "lib/dotnet/Costura.dll": {}
+        },
+        "build": {
+          "build/dotnet/Costura.Fody.targets": {}
+        }
+      },
+      "dnlib/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/dnlib.dll": {}
+        }
+      },
+      "Fody/2.2.0": {
+        "type": "package",
+        "build": {
+          "build/net452/Fody.targets": {}
+        }
+      },
+      "EazDecodeLib/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "CommandLineParser/1.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
+      "Costura.Fody/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/dotnet/_._": {}
+        },
+        "runtime": {
+          "lib/dotnet/Costura.dll": {}
+        },
+        "build": {
+          "build/dotnet/Costura.Fody.targets": {}
+        }
+      },
+      "dnlib/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/dnlib.dll": {}
+        }
+      },
+      "Fody/2.2.0": {
+        "type": "package",
+        "build": {
+          "build/net452/Fody.targets": {}
+        }
+      },
+      "EazDecodeLib/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "CommandLineParser/1.9.71": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CommandLine.dll": {}
+        }
+      },
+      "Costura.Fody/1.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/dotnet/_._": {}
+        },
+        "runtime": {
+          "lib/dotnet/Costura.dll": {}
+        },
+        "build": {
+          "build/dotnet/Costura.Fody.targets": {}
+        }
+      },
+      "dnlib/3.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/dnlib.dll": {}
+        },
+        "runtime": {
+          "lib/net45/dnlib.dll": {}
+        }
+      },
+      "Fody/2.2.0": {
+        "type": "package",
+        "build": {
+          "build/net452/Fody.targets": {}
+        }
+      },
+      "EazDecodeLib/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0"
+      }
+    }
+  },
+  "libraries": {
+    "CommandLineParser/1.9.71": {
+      "sha512": "fRWAQy0RuWIQCHxbnUmMS++pg0Ne9LixRLPkYFHNeMGGCPWAcYRoVFg1J71B8tJEsHHGrEcUnjnu3mkCKTuoPg==",
+      "type": "package",
+      "path": "commandlineparser/1.9.71",
+      "files": [
+        ".signature.p7s",
+        "commandlineparser.1.9.71.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net35/CommandLine.dll",
+        "lib/net35/CommandLine.xml",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "readme.txt"
+      ]
+    },
+    "Costura.Fody/1.6.2": {
+      "sha512": "ZSrjUJp+ojMKzPsikOjozB8M0JTXJp4ZWTd4Nqy2vmb4ut9lP68xfIl4HUYcriVZQiAiMJNkJ/TPhTCMQvODRw==",
+      "type": "package",
+      "path": "costura.fody/1.6.2",
+      "files": [
+        ".signature.p7s",
+        "Costura.Fody.dll",
+        "Costura.Fody.pdb",
+        "Costura.Tasks.dll",
+        "Costura.Tasks.pdb",
+        "build/dotnet/Costura.Fody.targets",
+        "build/portable-net+sl+win+wpa+wp/Costura.Fody.targets",
+        "costura.fody.1.6.2.nupkg.sha512",
+        "costura.fody.nuspec",
+        "lib/dotnet/Costura.dll",
+        "lib/dotnet/Costura.pdb",
+        "lib/portable-net+sl+win+wpa+wp/Costura.dll",
+        "lib/portable-net+sl+win+wpa+wp/Costura.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "dnlib/3.4.0": {
+      "sha512": "bGut6kdnjOLbusDElltt5RSbAht1OxgAnvovwenVbIcf2uXj1ri1KPCBfuOvLm20xQGQOgFHBPQ4Vb0m2371mw==",
+      "type": "package",
+      "path": "dnlib/3.4.0",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dnlib.3.4.0.nupkg.sha512",
+        "dnlib.nuspec",
+        "lib/net35/dnlib.dll",
+        "lib/net35/dnlib.xml",
+        "lib/net45/dnlib.dll",
+        "lib/net45/dnlib.xml",
+        "lib/netstandard2.0/dnlib.dll",
+        "lib/netstandard2.0/dnlib.xml"
+      ]
+    },
+    "Fody/2.2.0": {
+      "sha512": "2a2uak3sRo2IM7EdhNsX/mNuoBg8V8vZSyJzCZTd2U/EOiIOm4OV/mcqTiNmWRDjpPP77h0/xuJKMQsal3SHJg==",
+      "type": "package",
+      "path": "fody/2.2.0",
+      "files": [
+        ".signature.p7s",
+        "Content/FodyWeavers.xml",
+        "Fody.dll",
+        "Fody.pdb",
+        "FodyCommon.dll",
+        "FodyCommon.pdb",
+        "FodyIsolated.dll",
+        "FodyIsolated.pdb",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll",
+        "Mono.Cecil.dll",
+        "Tools/install.ps1",
+        "build/net452/Fody.targets",
+        "build/netstandard1.2/Fody.targets",
+        "build/portable-net+sl+win+wpa+wp/Fody.targets",
+        "fody.2.2.0.nupkg.sha512",
+        "fody.nuspec"
+      ]
+    },
+    "EazDecodeLib/1.0.0": {
+      "type": "project",
+      "path": "../eazdecode/EazDecodeLib/EazDecodeLib.csproj",
+      "msbuildProject": "../eazdecode/EazDecodeLib/EazDecodeLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "CommandLineParser >= 1.9.71",
+      "Costura.Fody >= 1.6.2",
+      "EazDecodeLib >= 1.0.0",
+      "Fody >= 2.2.0",
+      "dnlib >= 3.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\AdminA\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\TEMP_Work\\osu-decoder-master\\osu!decoder\\osu!decoder.csproj",
+      "projectName": "osu!decoder",
+      "projectPath": "c:\\TEMP_Work\\osu-decoder-master\\osu!decoder\\osu!decoder.csproj",
+      "outputPath": "c:\\TEMP_Work\\osu-decoder-master\\osu!decoder\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "c:\\TEMP_Work\\osu-decoder-master\\eazdecode\\EazDecodeLib\\EazDecodeLib.csproj": {
+              "projectPath": "c:\\TEMP_Work\\osu-decoder-master\\eazdecode\\EazDecodeLib\\EazDecodeLib.csproj"
+            }
+          }
+        }
+      }
+    },
+    "dependencies": {
+      "CommandLineParser": {
+        "target": "Package",
+        "version": "1.9.71"
+      },
+      "Costura.Fody": {
+        "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+        "suppressParent": "All",
+        "target": "Package",
+        "version": "1.6.2"
+      },
+      "dnlib": {
+        "target": "Package",
+        "version": "3.4.0"
+      },
+      "Fody": {
+        "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+        "suppressParent": "All",
+        "target": "Package",
+        "version": "2.2.0"
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "1.9.71"
+          },
+          "Costura.Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "1.6.2"
+          },
+          "dnlib": {
+            "target": "Package",
+            "version": "3.4.0"
+          },
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.2.0"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
